@@ -21,9 +21,6 @@ No API keys. No subscriptions. No content restrictions. Your conversations never
 
 > **Desktop platforms** (Windows, macOS, Linux) are supported by the Flutter framework but need community testing and polish. **[We'd love your help!](#-contributing)**
 
-**🎥 Watch the Setup & Demo Video: [https://youtu.be/2Pnv68iHIaQ](https://youtu.be/2Pnv68iHIaQ)**
-
-[![Uncensored Local AI Demo](https://img.youtube.com/vi/2Pnv68iHIaQ/maxresdefault.jpg)](https://youtu.be/2Pnv68iHIaQ)
 
 ---
 
@@ -33,9 +30,9 @@ No API keys. No subscriptions. No content restrictions. Your conversations never
 
 | APK | Architecture | Best For | Size |
 |-----|-------------|----------|------|
-| [**app-arm64-v8a-release.apk**](https://github.com/techjarves/Uncensored-Local-AI-Multiplatform/releases/download/v2.0.0/app-arm64-v8a-release.apk) | ARM 64-bit | **Most phones (2018+)** | ~65 MB |
-| [**app-armeabi-v7a-release.apk**](https://github.com/techjarves/Uncensored-Local-AI-Multiplatform/releases/download/v2.0.0/app-armeabi-v7a-release.apk) | ARM 32-bit | Older/budget phones | ~18 MB |
-| [**app-x86_64-release.apk**](https://github.com/techjarves/Uncensored-Local-AI-Multiplatform/releases/download/v1.0.0/app-x86_64-release.apk) | x86 64-bit | Emulators / ChromeOS | ~58 MB |
+| [**app-arm64-v8a-release.apk**](https://github.com/Israil8364/UncensoredLocalAi/releases/download/v2.0.0/app-arm64-v8a-release.apk) | ARM 64-bit | **Most phones (2018+)** | ~65 MB |
+| [**app-armeabi-v7a-release.apk**](https://github.com/Israil8364/UncensoredLocalAi/releases/download/v2.0.0/app-armeabi-v7a-release.apk) | ARM 32-bit | Older/budget phones | ~18 MB |
+| [**app-x86_64-release.apk**](https://github.com/Israil8364/UncensoredLocalAi/releases/download/v1.0.0/app-x86_64-release.apk) | x86 64-bit | Emulators / ChromeOS | ~58 MB |
 
 > **Not sure which to pick?** Download `arm64-v8a` — it works on virtually all modern Android phones.
 
@@ -90,8 +87,8 @@ No API keys. No subscriptions. No content restrictions. Your conversations never
 **Prerequisites:** Mac with Xcode 15+ · [Flutter SDK](https://flutter.dev/docs/get-started/install)
 
 ```bash
-git clone https://github.com/techjarves/Uncensored-Local-AI-Multiplatform.git
-cd Uncensored-Local-AI-Multiplatform
+git clone https://github.com/Israil8364/UncensoredLocalAi.git
+cd UncensoredLocalAi
 flutter pub get
 cd ios && pod install && cd ..
 flutter build ios --release
@@ -103,13 +100,13 @@ flutter build ios --release
 > Desktop builds compile successfully but may have rough edges. **We are actively looking for contributors** to help test and polish the desktop experience.
 
 ```bash
-git clone https://github.com/techjarves/Uncensored-Local-AI-Multiplatform.git
-cd Uncensored-Local-AI-Multiplatform
+git clone https://github.com/Israil8364/UncensoredLocalAi.git
+cd UncensoredLocalAi
 flutter pub get
 flutter run -d windows   # or macos / linux
 ```
 
-If you encounter issues on desktop, please [open an issue](https://github.com/techjarves/Uncensored-Local-AI-Multiplatform/issues) — your feedback directly shapes the roadmap.
+If you encounter issues on desktop, please [open an issue](https://github.com/Israil8364/UncensoredLocalAi/issues) — your feedback directly shapes the roadmap.
 
 ---
 
@@ -204,5 +201,5 @@ See [LICENSE](LICENSE) for full details.
 ---
 
 <div align="center">
-  <sub>Built with ❤️ using Flutter · Powered by <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a></sub>
+  <sub>Built with ❤️ by <a href="https://github.com/Israil8364">Akhtar</a> · Powered by <a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a></sub>
 </div>
